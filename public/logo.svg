@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .logo-text { font-family: Arial, sans-serif; font-weight: bold; }
+    .glasses { fill: #000042; }
+    .accent { fill: #18CFA8; }
+  </style>
+  <g transform="translate(256, 256)">
+    <!-- Glasses Frame -->
+    <path class="glasses" d="M-160,0 a60,60 0 1,0 120,0 a60,60 0 1,0 -120,0 M40,0 a60,60 0 1,0 120,0 a60,60 0 1,0 -120,0" stroke-width="20" fill="none" stroke="#000042"/>
+    <!-- Bridge -->
+    <path class="glasses" d="M-40,0 L40,0" stroke-width="20" fill="none" stroke="#000042"/>
+    <!-- Temple Arms -->
+    <path class="glasses" d="M-220,0 L-240,20 M220,0 L240,-20" stroke-width="15" fill="none" stroke="#000042"/>
+    <!-- Decorative Accent -->
+    <circle class="accent" cx="-160" cy="0" r="10"/>
+    <circle class="accent" cx="160" cy="0" r="10"/>
+  </g>
+  <text class="logo-text" x="256" y="400" text-anchor="middle" font-size="48" fill="#000042">SPECTACULAR</text>
+</svg>
