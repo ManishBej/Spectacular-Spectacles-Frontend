@@ -1,0 +1,37 @@
+.slide-container {
+  width: 100%;
+  margin: auto;
+}
+
+.react-slideshow-container {
+  position: relative;
+}
+
+.react-slideshow-container .nav {
+  z-index: 10;
+}
+
+.react-slideshow-container .nav:first-of-type {
+  left: 10px;
+}
+
+.react-slideshow-container .nav:last-of-type {
+  right: 10px;
+}
+
+.indicators {
+  padding: 6px;
+}
+
+.indicators > div {
+  margin: 0 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ccc;
+  cursor: pointer;
+}
+
+.indicators > div.active {
+  background: #000;
+}
